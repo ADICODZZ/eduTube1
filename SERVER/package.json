@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "ncc build index.js -o dist",
+   
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "postinstall": "npm rebuild bcrypt"
+    "dev": "nodemon index.js"
+   
   },
   "keywords": [],
   "author": "",
