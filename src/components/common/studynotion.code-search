@@ -1,0 +1,55 @@
+# Query: studynotion
+# ContextLines: 1
+
+17 results - 6 files
+
+SERVER\mail\templates\courseEnrollmentEmail.js:
+  69          <div class="container">
+  70:             <a href=""><img class="logo" src="https://i.ibb.co/7Xyj3PC/logo.png"
+  71:                     alt="eduTube Logo"></a>
+  72              <div class="message">Course Registration Confirmation</div>
+
+  78                  </p>
+  79:                 <a class="cta" href="https://studynotion-edtech-project.vercel.app/dashboard">Go to Dashboard</a>
+  80              </div>
+  81              <div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
+  82:                     href="mailto:info@studynotion.com">info@studynotion.com</a>. We are here to help!</div>
+  83          </div>
+
+SERVER\mail\templates\emailVerificationTemplate.js:
+  75  				<p>Dear User,</p>
+  76: 				<p>Thank you for registering with StudyNotion. To complete your registration, please use the following OTP
+  77  					(One-Time Password) to verify your account:</p>
+
+  82  			<div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
+  83: 					href="mailto:info@studynotion.com">info@studynotion.com</a>. We are here to help!</div>
+  84  		</div>
+
+SERVER\mail\templates\passwordUpdate.js:
+  58              <a href="https://ibb.co/JqpkCc1"><img class="logo"
+  59:                     src="https://ibb.co/JqpkCc1" alt="StudyNotion Logo"></a>
+  60              <div class="message">Password Update Confirmation</div>
+
+  68                  at
+  69:                 <a href="mailto:info@studynotion.com">info@studynotion.com</a>. We are here to help!
+  70              </div>
+
+SERVER\mail\templates\paymentSuccess.js:
+  69          <div class="container">
+  70:             <a href="https://studynotion-edtech-project.vercel.app"><img class="logo" src="https://ibb.co/JqpkCc1"
+  71:                     alt="StudyNotion Logo"></a>
+  72              <div class="message">
+
+  85              <div class="support">If you have any questions or need assistance, please feel free to reach out to us at <a
+  86:                     href="mailto:info@studynotion.com">info@studynotion.com</a>. We are here to help!</div>
+  87          </div>
+
+src\components\core\HomePage\InstructorSection.jsx:
+  25                Instructors from around the world teach millions of students on
+  26:               StudyNotion. We provide the tools and skills to teach what you
+  27                love.
+
+src\pages\Signup.jsx:
+   9      <Template
+  10:       title="Join the millions learning to code with StudyNotion for free"
+  11        description1="Build skills for today, tomorrow, and beyond."
