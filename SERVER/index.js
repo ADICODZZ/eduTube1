@@ -23,7 +23,10 @@ database.connect();
 app.use(express.json());
 app.use(cookieParser());
 app.use(
-    cors()
+    cors({
+        origin:"",
+        Credential:true,
+    })
 )
 
 app.use(
