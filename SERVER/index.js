@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin:"https://edu-tube1.vercel.app",
+        origin:["https://edu-tube1.vercel.app"],
         Credential:true,
     })
 )
