@@ -30,8 +30,6 @@
     "otp-generator": "^4.0.1",
     "razorpay": "^2.9.2",
     "react-hot-toast": "^2.4.1"
-  },
-  "devDependencies": {
-    "@vercel/ncc": "^0.38.1"
   }
+  
 }
