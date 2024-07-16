@@ -88,7 +88,7 @@ useEffect(() => {
 
       <div className=' mx-auto box-content w-full max-w-maxContentTab px-4 py-12 lg:max-w-maxContent'>
         <h2 className='section_heading mb-6 md:text-3xl text-xl text-white'>
-          Top courses in  {Catalog.catalog}
+          Other courses
         </h2>
         <CourseSlider Courses={CatalogPageData?.differentCourses}/>
       </div>
