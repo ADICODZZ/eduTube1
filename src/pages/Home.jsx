@@ -9,6 +9,7 @@ import TimelineSection from "../components/core/HomePage/TimelineSection"
 import CodeBlock from "../components/core/HomePage/CodeBlock"
 import InstructorSection from "../components/core/HomePage/InstructorSection"
 import ReviewSlider from "../components/core/Ratings/RatingSlider"
+import ExploreMore from "../components/core/HomePage/ExploreMore"
 const Home=()=>{
     return(
         <div>
@@ -19,10 +20,16 @@ const Home=()=>{
 
                 <Link to={"/signup"}>
                     <div className=" group mt-16 p-1 mx-auto rounded-full bg-[#d62626] 
-                     font-bold text-richblack-100 transition-all duration-200 group-hover:scale-95 w-fit max-w-maxContent">
-                        <div className=" rounded-full flex flex-row items-center gap-rounded-full p-3 transition-all duration-200 group-hover:bg-[#f20808] hover:scale-95">
+                              font-bold text-richblack-100 transition-all duration-200 
+                              group-hover:scale-95 w-fit max-w-maxContent">
+
+                        <div className=" rounded-full flex flex-row items-center gap-rounded-full
+                         p-3 transition-all duration-200 group-hover:bg-[#f20808] hover:scale-95">
+                            
                             <p>Become an Instructor</p>
+
                             <FaArrowRight/> 
+
                         </div>
                     </div>
 
@@ -34,12 +41,14 @@ const Home=()=>{
                 </div>
 
                 <div className="mt-4 w-[90%] md:text-center text-left text-sm md:text-lg font-bold text-richblack-300">
+                    
                     With our online coding courses, you can learn from experts and improve your coding skills
                     from anywhere in the world, and get access to a wealth of resources, including hands-on projects, 
                     quizzes, and personalized feedback from instructors. 
+
                 </div>
 
-                <div className="flex  flex-row gap-7 mt-8">
+                <div className="flex flex-row gap-7 mt-8">
                     <CTAButton active={true} linkto={"/signup"}>
                         Learn More
                     </CTAButton>
@@ -55,8 +64,8 @@ const Home=()=>{
                     muted
                     loop
                     autoPlay>
-                        <source src={Banner} type="video/mp4"/>
-                        
+
+                    <source src={Banner} type="video/mp4"/>
                     </video>
 
                 </div>
@@ -132,7 +141,7 @@ const Home=()=>{
 
                 </div>
 
-
+                <ExploreMore/>
 
             </div>
 
@@ -191,16 +200,17 @@ const Home=()=>{
             </div>
             {/* Section 3 */}
             
-            <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white">
+            <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-grey-1 text-white">
                {/* Become a instructor section */}
                <InstructorSection />
-               </div>
-                {/* Reviws from Other Learner */}
-                <div className=' mb-16 mt-3'>
+            </div>
+                {/* Reviews from Other Learner */}
+            
+            <div className=' mb-16 mt-3'>
                <h2 className='text-center text-2xl md:text-4xl font-semibold mt-8 text-richblack-5 mb-5'>
                 Reviews from other learners</h2>
                <ReviewSlider />
-      </div>
+            </div>
       
 
             {/*Footer 4*/}

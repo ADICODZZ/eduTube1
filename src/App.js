@@ -32,6 +32,7 @@ import CourseDetails from "./pages/CourseDetails";
 import VideoDetails from './components/core/ViewCourse/VideoDetails';
 import ViewCourse from './pages/ViewCourse';
 import InstructorDashboard from './components/core/Dashboard/InstructorDashboard/InstructorDashboard';
+
 const App=() =>{
   const user = useSelector((state) => state.profile.user);
   const progress = useSelector((state) => state.loadingBar);

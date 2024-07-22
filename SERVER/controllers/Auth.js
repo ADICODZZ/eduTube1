@@ -5,7 +5,7 @@ const mailSender = require("../utils/mailSender");
 const { passwordUpdated } = require("../mail/templates/passwordUpdate");
 const Profile = require("../models/Profile");
 require("dotenv").config();
-const bcrypt = require("bcryptjs");
+const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const {otpTemplate }= require("../mail/templates/emailVerificationTemplate");
 //send otp
@@ -216,7 +216,7 @@ exports.login=async(req,res)=>{
             console.log("true");
             const token = jwt.sign(
                 {email:user.email ,id: user._id, accountType:user.accountType},
-                process.env.JWT_SECRET,
+              process.env.JWT_SECRET,
                 {
                 expiresIn:"24h",
             }
