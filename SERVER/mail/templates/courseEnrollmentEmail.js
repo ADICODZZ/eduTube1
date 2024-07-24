@@ -67,7 +67,7 @@ exports.courseEnrollmentEmail = (courseName, name) => {
     
     <body>
         <div class="container">
-            <a href="https://eduTube-edtech-project.vercel.app"><img class="logo" src="https://i.ibb.co/7Xyj3PC/logo.png"
+            <a href="https://eduTube-edtech-project.vercel.app"><img class="logo" src="https://ibb.co/ft3N5Jc"
                     alt="eduTube Logo"></a>
             <div class="message">Course Registration Confirmation</div>
             <div class="body">
